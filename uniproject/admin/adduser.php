@@ -92,19 +92,47 @@ include 'include/leftsidebar.php';
                                 </div>
                                
 
-                                   <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label form-control-label">Company Name</label>
+                                   
+                                                         <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label form-control-label">Company </label>
                                     <div class="col-sm-9">
-                                        <input class="form-control" name="company" type="text" value="">
+                                      <select name="user_company_id" class="form-control">
+                                        
+                                        <?php
+                            $query = "SELECT * FROM companies";
+        $select_companies = mysqli_query($connection,$query);  
+
+        while($row = mysqli_fetch_assoc($select_companies)) {
+        $company_id = $row['company_id'];
+        $company_title = $row['company_title'];
+
+        if($company_id == $post_company_id) {
+
+      
+        echo "<option selected value='{$company_id}'>{$company_title}</option>";
+
+
+        } else {
+
+          echo "<option value='{$company_id}'>{$company_title}</option>";
+
+
+        }
+            
+        }
+        ?>
+   
+
+                                      </select>
+                                       
                                     </div>
                                 </div>
-                            
 
                                 <div class="form-group row">
                                     <label class="col-sm-12 col-form-label form-control-label"></label> 
                                 
                                    
-                                        <input class="btn btn-success" name="Submit" type="submit" value="Submit">
+                                        <input class="btn btn-outline-primary" name="Submit" type="submit" value="Add User">
                                     
                                 </div>
                             </form>

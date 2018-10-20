@@ -31,7 +31,7 @@ session_start();
          <!-- Modernizr -->
 		<script src="assets/js/modernizr.min.js"></script>
 
-		<script src="assets/js/painterro-0.2.65.min.js"></script>
+		
 
 <!-- jQuery -->
 <script src="assets/js/jquery.min.js"></script>
@@ -46,6 +46,8 @@ session_start();
 <script src="assets/js/countdown.js"></script>
 <link href="assets/css/pricing-tables.css" rel="stylesheet" type="text/css" />
 
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 		<link href="assets/plugins/bootstrap-magnify/bootstrap-magnify.min.css" rel="stylesheet" /> 
 		<link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
 		<link href="assets/plugins/lightbox/ekko-lightbox.css" rel="stylesheet" />
@@ -58,4 +60,8 @@ session_start();
 
 
 				<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+            <script src="https://cdn.ckeditor.com/ckeditor5/11.1.0/classic/ckeditor.js"></script>
+
+
 </head>

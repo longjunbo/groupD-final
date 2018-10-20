@@ -1,45 +1,56 @@
 <?php include "includes/header.php" ?>
 
+<style type="text/css">
+  
+   @media (min-width: 1000px) and (max-width: 1199px) {
+        
+        #cl{
+            margin-left: 750px;
+        }
 
+   }
+</style>
 <body >
   
         
-<div class="container-fluid hero-image">
+<div class="container-fluid ">
         
     <div class="row">
-        <div class="col-sm-4 offset-sm-1">
+        <div class="col-sm-4 ">
                 <nav class="navbar navbar-light" id="who1">
-                        <a class="navbar-brand" href="#"> <img src="img/corp.jpg" height="90px;" width="380px;" alt="logo" style="margin-top: -10px; margin-left: 10px;"></a>
+                        <a class="navbar-brand" href="#"> <img src="img/corp.jpg" height="80px;" width="350px;" alt="logo" style="margin-top: -10px; margin-left: 10px;"></a>
                       </nav>
 
         </div>
-    </div>
+    
 
-    <div class="row justify-content-center list-style-type:none;" >
-        <div class="col-sm-12" >
-                        <ul class="d-flex justify-content-center st">
+    
+        <div class="col-sm-6 " >
+                        <ul class="d-flex justify-content-center" style="list-style-type: none; margin-top: 25px;">
                                 <li><a class="active" href="#home">Home</a></li>
-                                <li><a href="aboutus.php">AboutUs</a></li>
+                                <li><a href="aboutus.php">About</a></li>
                                 <li><a href="joinus.php">JoinUs</a></li>
-                                <li><a href="login.php">Login</a></li>
+                                <li><a href="login.php">LogIn</a></li>
                               </ul>
                       </ul>   
         </div>
     </div>
+</div>
 
-    <div class="row " style="margin-top: 120px;">
-        <div class="col-sm-4 offset-sm-4" style="margin-left: 515px;">
+<div class="container-fluid hero-image" >
+    <div class="row " style="">
+        <div class="col-sm-8 offset-sm-4" style="margin-left: 600px; margin-top: 70px;" id="cl">
             <img src="img/round.jpg" class="rounded-circle"> </div>
     </div>
 
     <div class="row">
             <div class="col-sm-8 offset-sm-4 ">
-                    <br><br><br> 
-                      <h2 class="headinga" style="margin-left: -30px;"> <b>Be An Employer Leading Change </b></h2>
+                    <br><br>
+                      <h2 class="headinga" style="margin-left: -45px;"> <b>Be An Employer Leading Change </b></h2>
                     <br><br><br> 
                </div>
                     <div class="col offset-sm-5 " >
-                      <h4 style="margin-left: -15px; color: white;">Join our movement</h4>
+                    <a href="joinus.php" type="button" class="btn btn-lg btn-outline-info"style="margin-left: -39px;">JOIN THE MOVEMENT </a>
                       <br><br>
                       
             </div>                

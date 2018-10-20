@@ -11,10 +11,10 @@ if(isset($_POST['Submit'])) {
 
     $address = $_POST['address'];
     $phone = $_POST['phone'];
-    $company = $_POST['company'];
+    $company = $_POST['user_company_id'];
 
 
-    $query = "INSERT INTO joinus (username, password, email, full_name, Address, contact_num, company_name) ";
+    $query = "INSERT INTO joinus (username, password, email, full_name, Address, contact_num, user_company_id) ";
     
     $query .= "VALUES('$username', '$password', '$email', '$fullname', '$address' , '$phone', '$company')";
 

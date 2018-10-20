@@ -51,7 +51,7 @@ li a:hover {
 
 
 .hero-image {
-  background-image: url("stuff/bg1.gif");
+  background-image: url("stuff/bg.gif");
   background-color: #cccccc;
   
   background-position: center;
@@ -66,11 +66,20 @@ li a:hover {
 
 #myVideo {
     position: fixed;
-    right: 0;
-    bottom: 0;
+   
     min-width: 100% ; 
-    min-height: 100%;
+    
   background: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  left: 50%;
+ background-size: cover;
+  transition: 1s opacity;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+  
 }
 
 
@@ -192,4 +201,16 @@ li a:hover {
   text-align: center;
   color: aliceblue;
 }
+
+.nav-item {
+background-color: lightgrey;
+
+}
+
+label{
+  color: white;
+  font-weight: bold;
+}
+
+
 </style>

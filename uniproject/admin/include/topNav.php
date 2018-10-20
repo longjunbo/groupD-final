@@ -7,7 +7,7 @@
 
 		<!-- LOGO -->
         <div class="headerbar-left">
-			<a href="index.html" class="logo"><img alt="Logo" src="assets/images/logo.png" /> <span>Bucket</span></a>
+			<a href="index.php" class="logo"><img alt="Logo" src="assets/images/logo.png" /> <span>Resource Bucket</span></a>
         </div>
 
         <nav class="navbar-custom">

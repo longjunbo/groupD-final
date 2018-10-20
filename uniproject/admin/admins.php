@@ -40,8 +40,8 @@ include 'include/leftsidebar.php';
               
             <div class="card-body">
               <div class="table-responsive">
-              <table id="example1" class="table table-bordered table-hover display">
-                <thead>
+              <table id="example1" class="table table-striped table-bordered table-hover">
+                <thead class="thead-dark">
                   <tr>
                   <th>ID# </th>
                     <th>Email ID</th>
@@ -50,7 +50,7 @@ include 'include/leftsidebar.php';
                     <th>Contact No</th>
                     
                     <th>Address</th>
-                    <th> Action </th>
+                    
 
                   </tr>
                 </thead>										
@@ -79,9 +79,7 @@ include 'include/leftsidebar.php';
                        echo "<td>$admin_address </td>";
                        
 
-                      echo "<td><a href='editadmin.php?edit={$db_id}'  class='btn btn-sm btn-primary'> Edit </a>
-                      <a href='admins.php?delete={$db_id}' class='btn btn-sm btn-danger' > Delete </a></td>";
-                       
+                      
                        echo "<tr>";
 
                        }
